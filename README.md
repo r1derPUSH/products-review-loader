@@ -15,7 +15,7 @@ All actions are logged in the browser **Console**.
 
 ## 🚀 How to use
 
-1. Visit the GitHub Pages link: [🔗 Live Demo](https://r1dePUSH.github.io/products-review-loader/)  
+1. Visit the GitHub Pages link: [🔗 Live Demo]([https://r1dePUSH.github.io/products-review-loader/](https://r1derpush.github.io/products-review-loader/))  
 2. Click the button  
 3. Open Developer Console (`F12` or Right-click → Inspect → Console)  
 4. Watch the product & review data load step by step!  
