@@ -1,0 +1,42 @@
+body {
+    background-color: hsl(208, 16%, 49%);
+    display: flex;
+    justify-content: center;
+    min-height: 98vh;
+    align-items: center;
+}
+
+.getProductsInfoBtn {
+    width: 400px;
+    height: 200px;
+    border-radius: 70px;
+    font-size: 3rem;
+    background-color: hsla(120, 43%, 32%, 0.69);
+    color: white;
+    border: 3px solid black;
+}
+
+@keyframes backgroundChange {
+    0% {
+        background-color: hsla(120, 43%, 32%, 0.69);
+    }
+
+    100% {
+        background-color: hsl(120, 51%, 16%);
+    }
+}
+
+.getProductsInfoBtn:hover {
+    animation: backgroundChange .5s .01s forwards ease;
+    cursor: pointer;
+}
+
+.clicked {
+    background-color: hsla(0, 100%, 27%, 0.69);
+    width: 400px;
+    height: 200px;
+    border-radius: 70px;
+    font-size: 3rem;
+    color: white;
+    border: 3px solid black;
+}
